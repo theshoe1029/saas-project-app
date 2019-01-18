@@ -17,6 +17,9 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+gem 'bootstrap-datepicker-rails'
+gem 'jquery-rails'
+gem 'rake'
 
 gem 'devise'
 gem 'milia', github: 'jekuno/milia', branch: 'issue#76'
