@@ -20,6 +20,7 @@ gem 'devise-bootstrap-views'
 gem 'bootstrap-datepicker-rails'
 gem 'jquery-rails'
 gem 'rake'
+gem 'stripe'
 
 gem 'devise'
 gem 'milia', github: 'jekuno/milia', branch: 'issue#76'
