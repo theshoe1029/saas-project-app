@@ -86,6 +86,7 @@ ActiveRecord::Schema.define(version: 2019_01_27_185849) do
   end
 
   create_table "users", force: :cascade do |t|
+    t.integer "parent_id"
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
     t.string "reset_password_token"
@@ -102,6 +103,7 @@ ActiveRecord::Schema.define(version: 2019_01_27_185849) do
     t.boolean "is_admin", default: false
     t.index ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true
     t.index ["email"], name: "index_users_on_email", unique: true
+    t.index ["parent_id"], name: "index_users_on_parent_id"
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
     t.index ["tenant_id"], name: "index_users_on_tenant_id"
   end
