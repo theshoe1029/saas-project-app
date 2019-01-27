@@ -21,6 +21,7 @@ gem 'bootstrap-datepicker-rails'
 gem 'jquery-rails'
 gem 'rake'
 gem 'stripe'
+gem 'font-awesome-rails
 
 gem 'devise'
 gem 'milia', github: 'jekuno/milia', branch: 'issue#76'
